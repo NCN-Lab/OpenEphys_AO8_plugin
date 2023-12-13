@@ -7,7 +7,7 @@ Solution developed by:
 
 Pedro Felix Alves (pedrofalves@i3s.up.pt)
 
-Paulo Aguiar
+Paulo Aguiar (pauloaguiar@i3s.up.pt)
 
 Neuroengineering and Computational Neuroscience Lab
 
