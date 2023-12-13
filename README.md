@@ -1,6 +1,8 @@
 # OpenEphys_AO8_plugin
 Provides direct access to 8 selectable channels via the AO board in the OpenEphys system
 
+*** this is an alpha version! more testing is still needed ***
+
 Solution developed by:
 
 Pedro Felix Alves (pedrofalves@i3s.up.pt)
