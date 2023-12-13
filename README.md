@@ -16,7 +16,8 @@ i3S - Institute for Research and Innovation in Health
 University of Porto, Portugal
 
 
-XXXX IMAGE GOES HERE XXXX 
+![image](https://github.com/NCN-Lab/OpenEphys_AO8_plugin/assets/126195168/c82a503a-4030-4ca7-b33a-03589d7cc78b)
+
 
 
 For questions, suggestions, and bug reports send an email to pauloaguiar@i3s.up.pt
