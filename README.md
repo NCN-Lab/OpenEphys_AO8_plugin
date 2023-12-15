@@ -1,5 +1,5 @@
 # OpenEphys_AO8_plugin
-Provides direct access to 8 selectable channels via the AO board in the OpenEphys system
+Building upon the functionalities of the [Rhythm-oni Plugin](https://github.com/open-ephys-plugins/rhythm-oni-plugin), it has all the same functions of the original Plugin, and it aditionally provides direct access to 8 selectable channels via the AO board in the OpenEphys system.
 
 *** this is an alpha version! more testing is still needed ***
 
