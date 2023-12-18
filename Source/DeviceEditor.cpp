@@ -113,6 +113,7 @@ DeviceEditor::DeviceEditor(GenericProcessor* parentNode,
     audioLabel->setColour(Label::textColourId, Colours::darkgrey);
     addAndMakeVisible(audioLabel);
 
+    //here instead of adding 2 buttons for the AO, we added 8, keeping  electrodeButtons[0] and  electrodeButtons[1] function
     for (int i = 0; i < 8; i++)
     {
       ElectrodeButton* button = new ElectrodeButton(-1);
@@ -287,8 +288,8 @@ void DeviceEditor::channelStateChanged(Array<int> newChannels)
     }
 
 
-  board->setDACchannel(button_on, selectedChannel); // Falta esta parte - commentamos o activeAudioChannel. A forma como podíamos fazer era guardar em variável e usar aqui.
-//Vou usar o button_on
+  board->setDACchannel(button_on, selectedChannel); //Use of a new variable - button_on, which is set to the index of the button that is toggled 
+
     if (selectedChannel > -1 && button_on > -1)
     {
         electrodeButtons[button_on]->setToggleState(true, dontSendNotification);
@@ -375,7 +376,7 @@ void DeviceEditor::buttonClicked(Button* button)
         for (int j=0; j<8; j++) {
             if (button == electrodeButtons[j]) {
                 std::vector<bool> channelStates;
-                changeButtonOn(j); //aqui seria para usar lá em cima, mas não sei como vai interagir para ligar os vários butões. Testar
+                changeButtonOn(j);
                 for (int i = 0; i < board->getNumDataOutputs(ContinuousChannel::ELECTRODE); i++)
                 {
                 if (electrodeButtons[j]->getChannelNum() -1 == i)
